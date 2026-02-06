@@ -1,0 +1,18 @@
+[
+  {
+    "id": "volvo-ecr25",
+    "equipmentName": "ECR25 Electric",
+    "powerUse": "Battery Electric",
+    "oem": "Volvo CE",
+    "country": "Sweden",
+    "classTonnage": 2.78,
+    "engineMotorPower": "18 kW",
+    "bucketSize": "0.09 m³",
+    "bladeSize": "",
+    "machineType": "Excavator",
+    "yearRelease": 2023,
+    "devStatus": "Released",
+    "sourceUrl": "https://www.volvoce.com/united-states/en-us/products/electric-machines/ecr25-electric/",
+    "sourceDate": "2023-01-01"
+  }
+]
