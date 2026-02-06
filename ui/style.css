@@ -1,0 +1,19 @@
+
+:root{
+  --blue:#1f4f82; --lightgrey:#f2f4f7; --text:#243447; --white:#fff;
+  --battery:#2ECC71; --hydrogen:#3498DB; --efuels:#E67E22; --hybrid:#9B59B6;
+}
+body{font-family:Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--lightgrey);color:var(--text);margin:0;}
+header{background:linear-gradient(90deg,var(--blue),#2c6cb0);color:var(--white);padding:16px 24px;}
+h1{margin:0 0 12px 0;}
+.toggles button{margin:4px 6px;border:none;padding:8px 12px;border-radius:6px;background:#e1ecff;color:#123;cursor:pointer}
+.toggles button.active{background:#ffd76a}
+table{width:calc(100% - 32px);margin:16px;background:#fff;border-collapse:collapse;border-radius:8px;overflow:hidden}
+th,td{padding:10px 12px;border-bottom:1px solid #e5e9f0;font-size:14px}
+tr:hover{background:#fafcff}
+.tag{display:inline-block;padding:2px 8px;border-radius:12px;color:#fff;font-weight:600}
+.tag.battery{background:var(--battery)}
+.tag.hydrogen{background:var(--hydrogen)}
+.tag.efuels{background:var(--efuels)}
+.tag.hybrid{background:var(--hybrid)}
+a{color:#0a66c2;text-decoration:none}
